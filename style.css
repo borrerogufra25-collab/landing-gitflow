@@ -4,7 +4,8 @@ body {
   padding: 0;
 }
 
-.site-header, .site-footer {
+.site-header,
+.site-footer {
   padding: 16px;
 }
 
@@ -22,4 +23,10 @@ body {
   padding: 8px 12px;
   border: 1px solid #333;
   text-decoration: none;
+  background: #eee;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  opacity: 0.85;
 }
